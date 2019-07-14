@@ -1,0 +1,5 @@
+You are given $n$ positive integers $a_1,a_2,\ldots,a_n$. 
+Consider the multisets $S_1,\dots,S_n$ where 
+$S_i=\{a_1,\dots,a_{i-1},a_{i+1},\dots,a_n\}=\{a_1,\dots,a_n\}\backslash\{a_i\}$. 
+Please write a program to compute $$\min_{1\le i\le n}\left(\max_{x\in S_i}x-\min_{y\in S_i}y\right)$$
+efficiently.
