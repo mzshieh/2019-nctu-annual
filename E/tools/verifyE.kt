@@ -13,12 +13,6 @@ fun verdict(v: Boolean, msg: String = "Should be EOF") {
     if (!v) throw Exception(msg)
 }
 
-fun dist2(p: List<BigDecimal>, q: List<BigDecimal>): BigDecimal {
-    val dx = p[0]-q[0]
-    val dy = p[1]-q[1]
-    return dx*dx+dy*dy
-}
-
 fun verify(input: List<String>, ans: List<String>) {
     val n = input[0].toInt()
     var out: MutableSet<Pair<BigInteger,BigInteger>> = mutableSetOf()
