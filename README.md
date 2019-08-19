@@ -3,3 +3,5 @@
 ## Primitive Pythagorean Triples
 input: n
 output: n primitive pythagorean triples
+
+## compute n from 1's
