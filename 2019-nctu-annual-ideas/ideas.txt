@@ -1,0 +1,22 @@
+Easy (done?)
+1. n -> three vertices of a triangle having exactly n lattice points on its
+   border and 3 lattice points as its vertices.
+Easy
+2. 3 lattice points -> the number of lattice points on the border of the
+   triangle formed by the input
+Medium-hard (done?)
+3. n -> the total number of multiplications and additions required to get n
+   from 1's
+Easy (done?) 
+4. n -> a monotone chain of n lattice points
+Medium
+5. Geometry median of 4 points (almost done?)
+Either one of the four points or the intersection of two line segments
+Medium-easy (done?)
+6. n k a-> given a DAG of n vertices of degree at most k such that there are
+   at least a^n distinct paths from 1 to n.
+Medium-easy(?)
+7. most joyful path of bounded-length
+Medium
+8. run-length encoding (almost done)
+define run of a binray string
