@@ -1,10 +1,7 @@
-Matryoshka dolls (Russian dolls) are a set of wooden dolls of decreasing size placed one inside another. 
-Alice is now manufacturing a new kind of Matryoshka dolls. The new Matryoshka dolls can contain multiple 
-doll sets at once (while not nested). To clearify the problem, we assign a size value for each type of dolls. 
-For a doll with size $k$, it can contain a multiple doll sets if the sum of their outermost layers' size are 
-strictly smaller than $k$. We also assign a pretty value for every type of dolls. The pretty value of a doll 
-set is the sum of the pretty value of each dolls inside it.
+Gaia travels among planets via (bidirectional) wormholes. She starts from planet $X$ and plans to reach planet $Y$. There may or may not exist a wormhole that connects planets $X$ and $Y$ directly. Therefore, on some occasions, it is necessary to traverse along a sequence of wormholes rather than just a single one. Some intermediate planets other than $X$ and $Y$ are visited while transferring from one wormhole to another. Given the temperature of all planets, Gaia would like to search for a sequence of wormholes from planet $X$ to $Y$ that minimizes the temperature difference between the hottest visited planets and the coldest visited one. For the sake of simplicity, we assume that planet $X$ has temperature $X$ (K) for each $X$. 
 
-Alice wants to make a new doll with size $x$, if the pretty value of this doll is zero, can you tell her 
-the maximum pretty value of the doll set if this doll is the outermost doll? Assuming that she have 
-infinite numbers of every kind of existing dolls.
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.6\textwidth]{image/D-fig1.png}
+\caption{If $X = 4$ and $Y = 5$, then the best route for Gaia to reach $Y$ from $X$ is $4 \rightarrow 2 \rightarrow 1 \rightarrow 3 \rightarrow 5$ because it has the smallest temperature difference $4$. \label{fig:drawing}}
+\end{figure}

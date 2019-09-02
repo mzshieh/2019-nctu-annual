@@ -1,0 +1,5 @@
+- 2 \le n \le 44
+- 1 \le m \le 4444
+- k = 4
+- 1 \le i ,\, j \le n \; ( i \ne j )
+- 0 \le u ,\, v \le k

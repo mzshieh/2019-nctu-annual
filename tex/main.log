@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.5.20)  21 JUN 2019 22:20
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.8.17)  2 SEP 2019 07:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -63,10 +63,6 @@ Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
@@ -341,21 +337,22 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 )
 (/usr/share/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-02-15 L3 programming layer (loader) 
+Package: expl3 2019-04-06 L3 programming layer (loader) 
 
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-02-15 L3 programming layer (code)
+Package: expl3 2019-04-06 L3 programming layer (code)
 \c_max_int=\count109
 \l_tmpa_int=\count110
 \l_tmpb_int=\count111
 \g_tmpa_int=\count112
 \g_tmpb_int=\count113
 \g__kernel_prg_map_int=\count114
-\c_log_iow=\count115
-\l_iow_line_count_int=\count116
-\l__iow_line_target_int=\count117
-\l__iow_one_indent_int=\count118
-\l__iow_indent_int=\count119
+\c__ior_term_ior=\count115
+\c_log_iow=\count116
+\l_iow_line_count_int=\count117
+\l__iow_line_target_int=\count118
+\l__iow_one_indent_int=\count119
+\l__iow_indent_int=\count120
 \c_zero_dim=\dimen156
 \c_max_dim=\dimen157
 \l_tmpa_dim=\dimen158
@@ -374,75 +371,75 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count120
-\l__intarray_loop_int=\count121
+\l_keys_choice_int=\count121
+\l__intarray_loop_int=\count122
 \c__intarray_sp_dim=\dimen162
-\g__intarray_font_int=\count122
-\c__fp_leading_shift_int=\count123
-\c__fp_middle_shift_int=\count124
-\c__fp_trailing_shift_int=\count125
-\c__fp_big_leading_shift_int=\count126
-\c__fp_big_middle_shift_int=\count127
-\c__fp_big_trailing_shift_int=\count128
-\c__fp_Bigg_leading_shift_int=\count129
-\c__fp_Bigg_middle_shift_int=\count130
-\c__fp_Bigg_trailing_shift_int=\count131
-\g__fp_array_int=\count132
-\l__fp_array_loop_int=\count133
-\l__sort_length_int=\count134
-\l__sort_min_int=\count135
-\l__sort_top_int=\count136
-\l__sort_max_int=\count137
-\l__sort_true_max_int=\count138
-\l__sort_block_int=\count139
-\l__sort_begin_int=\count140
-\l__sort_end_int=\count141
-\l__sort_A_int=\count142
-\l__sort_B_int=\count143
-\l__sort_C_int=\count144
-\l__tl_analysis_normal_int=\count145
-\l__tl_analysis_index_int=\count146
-\l__tl_analysis_nesting_int=\count147
-\l__tl_analysis_type_int=\count148
-\l__regex_internal_a_int=\count149
-\l__regex_internal_b_int=\count150
-\l__regex_internal_c_int=\count151
-\l__regex_balance_int=\count152
-\l__regex_group_level_int=\count153
-\l__regex_mode_int=\count154
-\c__regex_cs_in_class_mode_int=\count155
-\c__regex_cs_mode_int=\count156
-\l__regex_catcodes_int=\count157
-\l__regex_default_catcodes_int=\count158
-\c__regex_catcode_L_int=\count159
-\c__regex_catcode_O_int=\count160
-\c__regex_catcode_A_int=\count161
-\c__regex_all_catcodes_int=\count162
-\l__regex_show_lines_int=\count163
-\l__regex_min_state_int=\count164
-\l__regex_max_state_int=\count165
-\l__regex_left_state_int=\count166
-\l__regex_right_state_int=\count167
-\l__regex_capturing_group_int=\count168
-\l__regex_min_pos_int=\count169
-\l__regex_max_pos_int=\count170
-\l__regex_curr_pos_int=\count171
-\l__regex_start_pos_int=\count172
-\l__regex_success_pos_int=\count173
-\l__regex_curr_char_int=\count174
-\l__regex_curr_catcode_int=\count175
-\l__regex_last_char_int=\count176
-\l__regex_case_changed_char_int=\count177
-\l__regex_curr_state_int=\count178
-\l__regex_step_int=\count179
-\l__regex_min_active_int=\count180
-\l__regex_max_active_int=\count181
-\l__regex_replacement_csnames_int=\count182
-\l__regex_match_count_int=\count183
-\l__regex_min_submatch_int=\count184
-\l__regex_submatch_int=\count185
-\l__regex_zeroth_submatch_int=\count186
-\g__regex_trace_regex_int=\count187
+\g__intarray_font_int=\count123
+\c__fp_leading_shift_int=\count124
+\c__fp_middle_shift_int=\count125
+\c__fp_trailing_shift_int=\count126
+\c__fp_big_leading_shift_int=\count127
+\c__fp_big_middle_shift_int=\count128
+\c__fp_big_trailing_shift_int=\count129
+\c__fp_Bigg_leading_shift_int=\count130
+\c__fp_Bigg_middle_shift_int=\count131
+\c__fp_Bigg_trailing_shift_int=\count132
+\g__fp_array_int=\count133
+\l__fp_array_loop_int=\count134
+\l__sort_length_int=\count135
+\l__sort_min_int=\count136
+\l__sort_top_int=\count137
+\l__sort_max_int=\count138
+\l__sort_true_max_int=\count139
+\l__sort_block_int=\count140
+\l__sort_begin_int=\count141
+\l__sort_end_int=\count142
+\l__sort_A_int=\count143
+\l__sort_B_int=\count144
+\l__sort_C_int=\count145
+\l__tl_analysis_normal_int=\count146
+\l__tl_analysis_index_int=\count147
+\l__tl_analysis_nesting_int=\count148
+\l__tl_analysis_type_int=\count149
+\l__regex_internal_a_int=\count150
+\l__regex_internal_b_int=\count151
+\l__regex_internal_c_int=\count152
+\l__regex_balance_int=\count153
+\l__regex_group_level_int=\count154
+\l__regex_mode_int=\count155
+\c__regex_cs_in_class_mode_int=\count156
+\c__regex_cs_mode_int=\count157
+\l__regex_catcodes_int=\count158
+\l__regex_default_catcodes_int=\count159
+\c__regex_catcode_L_int=\count160
+\c__regex_catcode_O_int=\count161
+\c__regex_catcode_A_int=\count162
+\c__regex_all_catcodes_int=\count163
+\l__regex_show_lines_int=\count164
+\l__regex_min_state_int=\count165
+\l__regex_max_state_int=\count166
+\l__regex_left_state_int=\count167
+\l__regex_right_state_int=\count168
+\l__regex_capturing_group_int=\count169
+\l__regex_min_pos_int=\count170
+\l__regex_max_pos_int=\count171
+\l__regex_curr_pos_int=\count172
+\l__regex_start_pos_int=\count173
+\l__regex_success_pos_int=\count174
+\l__regex_curr_char_int=\count175
+\l__regex_curr_catcode_int=\count176
+\l__regex_last_char_int=\count177
+\l__regex_case_changed_char_int=\count178
+\l__regex_curr_state_int=\count179
+\l__regex_step_int=\count180
+\l__regex_min_active_int=\count181
+\l__regex_max_active_int=\count182
+\l__regex_replacement_csnames_int=\count183
+\l__regex_match_count_int=\count184
+\l__regex_min_submatch_int=\count185
+\l__regex_submatch_int=\count186
+\l__regex_zeroth_submatch_int=\count187
+\g__regex_trace_regex_int=\count188
 \c_empty_box=\box36
 \l_tmpa_box=\box37
 \l_tmpb_box=\box38
@@ -472,36 +469,38 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l_tmpb_coffin=\box47
 \g_tmpa_coffin=\box48
 \g_tmpb_coffin=\box49
+\l__coffin_bounding_shift_dim=\dimen178
+\l__coffin_left_corner_dim=\dimen179
+\l__coffin_right_corner_dim=\dimen180
+\l__coffin_bottom_corner_dim=\dimen181
+\l__coffin_top_corner_dim=\dimen182
+\l__coffin_scaled_total_height_dim=\dimen183
+\l__coffin_scaled_width_dim=\dimen184
 \c__coffin_empty_coffin=\box50
 \l__coffin_display_coffin=\box51
 \l__coffin_display_coord_coffin=\box52
 \l__coffin_display_pole_coffin=\box53
-\l__coffin_display_offset_dim=\dimen178
-\l__coffin_display_x_dim=\dimen179
-\l__coffin_display_y_dim=\dimen180
+\l__coffin_display_offset_dim=\dimen185
+\l__coffin_display_x_dim=\dimen186
+\l__coffin_display_y_dim=\dimen187
 \g__file_internal_ior=\read1
-\l__coffin_bounding_shift_dim=\dimen181
-\l__coffin_left_corner_dim=\dimen182
-\l__coffin_right_corner_dim=\dimen183
-\l__coffin_bottom_corner_dim=\dimen184
-\l__coffin_top_corner_dim=\dimen185
-\l__coffin_scaled_total_height_dim=\dimen186
-\l__coffin_scaled_width_dim=\dimen187
+\l__seq_internal_a_int=\count189
+\l__seq_internal_b_int=\count190
+\c__deprecation_minus_one=\count191
 )
 (/usr/share/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
-File: l3xdvipdfmx.def 2019-02-15 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count188
-\g__driver_pdf_object_int=\count189
+File: l3xdvipdfmx.def 2019-04-06 v L3 Experimental driver: xdvipdfmx
+\g__driver_image_int=\count192
+\g__driver_pdf_object_int=\count193
 ))
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count190
-\g__xparse_grabber_int=\count191
-\l__xparse_m_args_int=\count192
-\l__xparse_mandatory_args_int=\count193
-\l__xparse_v_nesting_int=\count194
+Package: xparse 2019-03-05 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count194
+\g__xparse_grabber_int=\count195
+\l__xparse_m_args_int=\count196
+\l__xparse_v_nesting_int=\count197
 )
-Package: xfp 2018-10-17 L3 Floating point unit
+Package: xfp 2019-03-05 L3 Floating point unit
 )
 (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -543,14 +542,14 @@ Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 \pgf@yc=\dimen197
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count195
-\c@pgf@countb=\count196
-\c@pgf@countc=\count197
-\c@pgf@countd=\count198
+\c@pgf@counta=\count198
+\c@pgf@countb=\count199
+\c@pgf@countc=\count266
+\c@pgf@countd=\count267
 \t@pgf@toka=\toks26
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count199
+\pgf@sys@id@count=\count268
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
@@ -566,12 +565,12 @@ File: pgfsys-dvipdfmx.def 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
 )
-\pgfsys@objnum=\count266
+\pgfsys@objnum=\count269
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfsyssoftpath@smallbuffer@items=\count267
-\pgfsyssoftpath@bigbuffer@items=\count268
+\pgfsyssoftpath@smallbuffer@items=\count270
+\pgfsyssoftpath@bigbuffer@items=\count271
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -600,7 +599,7 @@ Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen198
-\pgfmath@count=\count269
+\pgfmath@count=\count272
 \pgfmath@box=\box55
 \pgfmath@toks=\toks29
 \pgfmath@stack@operand=\toks30
@@ -617,7 +616,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count270
+\c@pgfmathroundto@lastzeros=\count273
 )) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@picminx=\dimen199
@@ -649,7 +648,7 @@ File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box56
 \pgf@hbox=\box57
 \pgf@layerbox@main=\box58
-\pgf@picture@serial@count=\count271
+\pgf@picture@serial@count=\count274
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -677,7 +676,7 @@ File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@max=\dimen278
-\pgf@sys@shading@range@num=\count272
+\pgf@sys@shading@range@num=\count275
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -732,7 +731,7 @@ Package: tikz 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@plot@mark@count=\count273
+\pgf@plot@mark@count=\count276
 \pgfplotmarksize=\dimen283
 )
 \tikz@lastx=\dimen284
@@ -745,17 +744,17 @@ File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \tikz@figbox@bg=\box62
 \tikz@tempbox=\box63
 \tikz@tempbox@bg=\box64
-\tikztreelevel=\count274
-\tikznumberofchildren=\count275
-\tikznumberofcurrentchild=\count276
-\tikz@fig@count=\count277
+\tikztreelevel=\count277
+\tikznumberofchildren=\count278
+\tikznumberofcurrentchild=\count279
+\tikz@fig@count=\count280
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfmatrixcurrentrow=\count278
-\pgfmatrixcurrentcolumn=\count279
-\pgf@matrix@numberofcolumns=\count280
+\pgfmatrixcurrentrow=\count281
+\pgfmatrixcurrentcolumn=\count282
+\pgf@matrix@numberofcolumns=\count283
 )
-\tikz@expandcount=\count281
+\tikz@expandcount=\count284
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
@@ -780,9 +779,9 @@ File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgftree@savechildx=\dimen301
 \pgftree@childy=\dimen302
 \pgftree@savechildy=\dimen303
-\pgftree@childi=\count282
-\pgftree@savechildi=\count283
-\pgftree@level=\count284
+\pgftree@childi=\count285
+\pgftree@savechildi=\count286
+\pgftree@level=\count287
 \pgftree@depth=\dimen304
 \pgf@subpic@hbox@children=\box65
 \pgf@subpic@minx@children=\dimen305
@@ -824,13 +823,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count285
+\inf@bad=\count288
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count286
-\leftroot@=\count287
+\uproot@=\count289
+\leftroot@=\count290
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count288
-\DOTSCASE@=\count289
+\classnum@=\count291
+\DOTSCASE@=\count292
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
@@ -839,15 +838,15 @@ LaTeX Info: Redefining \cdots on input line 606.
 \big@size=\dimen313
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count290
-\c@MaxMatrixCols=\count291
+\macc@depth=\count293
+\c@MaxMatrixCols=\count294
 \dotsspace@=\muskip17
-\c@parentequation=\count292
-\dspbrk@lvl=\count293
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
 \tag@help=\toks38
-\row@=\count294
-\column@=\count295
-\maxfields@=\count296
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
 \andhelp@=\toks39
 \eqnshift@=\dimen314
 \alignsep@=\dimen315
@@ -863,22 +862,22 @@ LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTe
+Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count297
-\l__fontspec_language_int=\count298
-\l__fontspec_strnum_int=\count299
-\l__fontspec_tmp_int=\count300
-\l__fontspec_tmpa_int=\count301
-\l__fontspec_tmpb_int=\count302
-\l__fontspec_tmpc_int=\count303
-\l__fontspec_em_int=\count304
-\l__fontspec_emdef_int=\count305
-\l__fontspec_strong_int=\count306
-\l__fontspec_strongdef_int=\count307
+\l__fontspec_script_int=\count300
+\l__fontspec_language_int=\count301
+\l__fontspec_strnum_int=\count302
+\l__fontspec_tmp_int=\count303
+\l__fontspec_tmpa_int=\count304
+\l__fontspec_tmpb_int=\count305
+\l__fontspec_tmpc_int=\count306
+\l__fontspec_em_int=\count307
+\l__fontspec_emdef_int=\count308
+\l__fontspec_strong_int=\count309
+\l__fontspec_strongdef_int=\count310
 \l__fontspec_tmpa_dim=\dimen320
 \l__fontspec_tmpb_dim=\dimen321
 \l__fontspec_tmpc_dim=\dimen322
@@ -891,33 +890,33 @@ File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 ))
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 4044.
-LaTeX Info: Redefining \slshape on input line 4049.
-LaTeX Info: Redefining \scshape on input line 4054.
-LaTeX Info: Redefining \upshape on input line 4059.
-LaTeX Info: Redefining \em on input line 4089.
-LaTeX Info: Redefining \emph on input line 4114.
+LaTeX Info: Redefining \itshape on input line 4051.
+LaTeX Info: Redefining \slshape on input line 4056.
+LaTeX Info: Redefining \scshape on input line 4061.
+LaTeX Info: Redefining \upshape on input line 4066.
+LaTeX Info: Redefining \em on input line 4096.
+LaTeX Info: Redefining \emph on input line 4121.
 ))
 (/usr/share/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-Package: xeCJK 2018/04/30 v3.7.1 Typesetting CJK scripts with XeLaTeX
+Package: xeCJK 2019/04/07 v3.7.2 Typesetting CJK scripts with XeLaTeX
 
 (/usr/share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-Package: xtemplate 2018-10-17 L3 Experimental prototype document functions
+Package: xtemplate 2019-03-05 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen323
-\l__xtemplate_tmp_int=\count308
+\l__xtemplate_tmp_int=\count311
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip60
 )
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2019-03-05 LaTeX2e option processing using LaTeX3 keys
 )
-\l__xeCJK_tmp_int=\count309
+\l__xeCJK_tmp_int=\count312
 \l__xeCJK_tmp_box=\box68
 \l__xeCJK_tmp_dim=\dimen324
 \l__xeCJK_tmp_skip=\skip61
-\g__xeCJK_space_factor_int=\count310
-\l__xeCJK_begin_int=\count311
-\l__xeCJK_end_int=\count312
+\g__xeCJK_space_factor_int=\count313
+\l__xeCJK_begin_int=\count314
+\l__xeCJK_end_int=\count315
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -927,7 +926,7 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
 \l__xeCJK_last_skip=\skip62
-\g__xeCJK_node_int=\count313
+\g__xeCJK_node_int=\count316
 \c__xeCJK_CJK_node_dim=\dimen325
 \c__xeCJK_CJK-space_node_dim=\dimen326
 \c__xeCJK_default_node_dim=\dimen327
@@ -937,13 +936,13 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 \l__xeCJK_ccglue_skip=\skip63
 \l__xeCJK_ecglue_skip=\skip64
 \l__xeCJK_punct_kern_skip=\skip65
-\l__xeCJK_last_penalty_int=\count314
+\l__xeCJK_last_penalty_int=\count317
 \l__xeCJK_last_bound_dim=\dimen331
 \l__xeCJK_last_kern_dim=\dimen332
-\l__xeCJK_widow_penalty_int=\count315
+\l__xeCJK_widow_penalty_int=\count318
 
 Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
-(xtemplate)             argument(s) on line 2362.
+(xtemplate)             argument(s) on line 2352.
 
 \l__xeCJK_fixed_punct_width_dim=\dimen333
 \l__xeCJK_mixed_punct_width_dim=\dimen334
@@ -964,14 +963,14 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \l__xeCJK_minimum_bound_dim=\dimen349
 \l__xeCJK_kerning_margin_dim=\dimen350
 \l__xeCJK_original_margin_dim=\dimen351
-\g__xeCJK_family_int=\count316
-\l__xeCJK_fam_int=\count317
-\g__xeCJK_fam_allocation_int=\count318
-\l__xeCJK_verb_case_int=\count319
+\g__xeCJK_family_int=\count319
+\l__xeCJK_fam_int=\count320
+\g__xeCJK_fam_allocation_int=\count321
+\l__xeCJK_verb_case_int=\count322
 \l__xeCJK_verb_exspace_skip=\skip66
 
 (/usr/share/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
-File: xeCJK.cfg 2018/04/30 v3.7.1 Configuration file for xeCJK package
+File: xeCJK.cfg 2019/04/07 v3.7.2 Configuration file for xeCJK package
 ))
 
 Package fontspec Info: Could not resolve font "Noto Sans CJK TC/I" (it
@@ -1009,29 +1008,29 @@ s
 \f@nch@O@orf=\skip75
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count320
+\lst@mode=\count323
 \lst@gtempboxa=\box69
 \lst@token=\toks42
-\lst@length=\count321
+\lst@length=\count324
 \lst@currlwidth=\dimen352
-\lst@column=\count322
-\lst@pos=\count323
+\lst@column=\count325
+\lst@pos=\count326
 \lst@lostspace=\dimen353
 \lst@width=\dimen354
-\lst@newlines=\count324
-\lst@lineno=\count325
+\lst@newlines=\count327
+\lst@lineno=\count328
 \lst@maxwidth=\dimen355
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count326
-\lst@skipnumbers=\count327
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count329
+\lst@skipnumbers=\count330
 \lst@framebox=\box70
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2018/09/02 1.7 listings configuration
+File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
-Package: listings 2018/09/02 1.7 (Carsten Heinz)
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/02/04 v3.8 Customized lists
@@ -1039,21 +1038,21 @@ Package: enumitem 2019/02/04 v3.8 Customized lists
 \enit@outerparindent=\dimen356
 \enit@toks=\toks43
 \enit@inbox=\box71
-\enit@count@id=\count328
-\enitdp@description=\count329
+\enit@count@id=\count331
+\enitdp@description=\count332
 )
 (/usr/share/texmf-dist/tex/latex/paracol/paracol.sty
 Package: paracol 2018/12/31 v1.35 
-\pcol@currcol=\count330
-\pcol@nextcol=\count331
-\pcol@ncol=\count332
-\pcol@ncolleft=\count333
-\pcol@page=\count334
-\pcol@basepage=\count335
-\pcol@toppage=\count336
-\pcol@footnotebase=\count337
-\pcol@nfootnotes=\count338
-\pcol@mcid=\count339
+\pcol@currcol=\count333
+\pcol@nextcol=\count334
+\pcol@ncol=\count335
+\pcol@ncolleft=\count336
+\pcol@page=\count337
+\pcol@basepage=\count338
+\pcol@toppage=\count339
+\pcol@footnotebase=\count340
+\pcol@nfootnotes=\count341
+\pcol@mcid=\count342
 \pcol@prevdepth=\dimen357
 \pcol@colht=\dimen358
 \pcol@textfloatsep=\dimen359
@@ -1075,8 +1074,8 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count340
-\cp@tempcnt=\count341
+\c@cp@cntr=\count343
+\cp@tempcnt=\count344
 LaTeX Info: Redefining \checkoddpage on input line 59.
 )
 (/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
@@ -1084,49 +1083,49 @@ Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
 
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count342
+\etb@tempcnta=\count345
 ))
-\c@pid=\count343
-\c@ncase=\count344
+\c@pid=\count346
+\c@ncase=\count347
 
 (/usr/share/texmf-dist/tex/latex/tools/layout.sty
 Package: layout 2014/10/28 v1.2c Show layout parameters
-\oneinch=\count345
-\cnt@paperwidth=\count346
-\cnt@paperheight=\count347
-\cnt@hoffset=\count348
-\cnt@voffset=\count349
-\cnt@textheight=\count350
-\cnt@textwidth=\count351
-\cnt@topmargin=\count352
-\cnt@oddsidemargin=\count353
-\cnt@evensidemargin=\count354
-\cnt@headheight=\count355
-\cnt@headsep=\count356
-\cnt@marginparsep=\count357
-\cnt@marginparwidth=\count358
-\cnt@marginparpush=\count359
-\cnt@footskip=\count360
-\fheight=\count361
-\ref@top=\count362
-\ref@hoffset=\count363
-\ref@voffset=\count364
-\ref@head=\count365
-\ref@body=\count366
-\ref@foot=\count367
-\ref@margin=\count368
-\ref@marginwidth=\count369
-\ref@marginpar=\count370
-\Interval=\count371
-\ExtraYPos=\count372
-\PositionX=\count373
-\PositionY=\count374
-\ArrowLength=\count375
+\oneinch=\count348
+\cnt@paperwidth=\count349
+\cnt@paperheight=\count350
+\cnt@hoffset=\count351
+\cnt@voffset=\count352
+\cnt@textheight=\count353
+\cnt@textwidth=\count354
+\cnt@topmargin=\count355
+\cnt@oddsidemargin=\count356
+\cnt@evensidemargin=\count357
+\cnt@headheight=\count358
+\cnt@headsep=\count359
+\cnt@marginparsep=\count360
+\cnt@marginparwidth=\count361
+\cnt@marginparpush=\count362
+\cnt@footskip=\count363
+\fheight=\count364
+\ref@top=\count365
+\ref@hoffset=\count366
+\ref@voffset=\count367
+\ref@head=\count368
+\ref@body=\count369
+\ref@foot=\count370
+\ref@margin=\count371
+\ref@marginwidth=\count372
+\ref@marginpar=\count373
+\Interval=\count374
+\ExtraYPos=\count375
+\PositionX=\count376
+\PositionY=\count377
+\ArrowLength=\count378
 )
 (/usr/share/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
-Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count376
-\l__xeCJK_listings_flag_int=\count377
+Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count379
+\l__xeCJK_listings_flag_int=\count380
 ) (./main.aux)
 \openout1 = `main.aux'.
 
@@ -1157,7 +1156,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count378
+\c@section@level=\count381
 )
 LaTeX Info: Redefining \ref on input line 144.
 LaTeX Info: Redefining \pageref on input line 144.
@@ -1264,31 +1263,29 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 144.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 144.
-\c@lstlisting=\count379
- (./A/statement.tex
-File: image/A.png Graphic file (type bmp)
-<image/A.png>
-) (./A/input.tex)
-(./A/output.tex) (./A/spec.tex)
-File: image/nctu.png Graphic file (type bmp)
-<image/nctu.png>
- [1
-
-]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 151.
-
+\c@lstlisting=\count382
+ (./A/statement.tex) (./A/input.tex)
+(./A/output.tex
 
 Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-(./A/1.input.txt) (./A/1.output.txt) (./A/2.input.txt) (./A/2.output.txt)
+) (./A/spec.tex)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 152.
+ (../A/data/sample/1.in) (../A/data/sample/1.ans)
+(../A/data/sample/2.in) (../A/data/sample/2.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
+ [1
 
-[2] (./B/statement.tex) (./B/input.tex) (./B/output.tex) (./B/spec.tex)
-(./B/1.input.txt) (./B/1.output.txt) (./B/2.input.txt) (./B/2.output.txt)
+]
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [2] (./B/statement.tex)
+(./B/input.tex) (./B/output.tex) (./B/spec.tex) (../B/data/sample/1.in)
+(../B/data/sample/1.ans) (../B/data/sample/2.in) (../B/data/sample/2.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
 
@@ -1296,22 +1293,26 @@ File: image/nctu.png Graphic file (type bmp)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [4] (./C/statement.tex) (./C/input.tex) (./C/output.tex) (./C/spec.tex)
-(./C/1.input.txt) (./C/1.output.txt) (./C/2.input.txt) (./C/2.output.txt)
+(../C/data/sample/1.in) (../C/data/sample/1.ans) (../C/data/sample/2.in)
+(../C/data/sample/2.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
-
-[5]
+ [5]
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [6] (./D/statement.tex) (./D/input.tex) (./D/output.tex) (./D/spec.tex)
-(./D/1.input.txt) (./D/1.output.txt)
+ [6] (./D/statement.tex
+File: image/D-fig1.png Graphic file (type bmp)
+<image/D-fig1.png>
+) (./D/input.tex)
+(./D/output.tex)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [7]
+ [7] (../D/data/sample/1.in) (../D/data/sample/1.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [8] (./E/statement.tex) (./E/input.tex) (./E/output.tex)
-Overfull \hbox (1.70781pt too wide) in paragraph at lines 1--155
+ [8]
+(./E/statement.tex) (./E/input.tex) (./E/output.tex)
+Overfull \hbox (1.70781pt too wide) in paragraph at lines 1--156
 \TU/lmr/m/n/12 For each test case, output one line containing the minimum numbe
 r of moves which \TU/lmtt/m/n/12 mangojunior
  []
@@ -1319,22 +1320,21 @@ r of moves which \TU/lmtt/m/n/12 mangojunior
 (./E/spec.tex
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [9]) (./E/1.input.txt) (./E/1.output.txt)
+ [9])
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [10] (./F/statement.tex) (./F/input.tex) (./F/output.tex) (./F/spec.tex) (./F/
-1.input.txt)
-(./F/1.output.txt)
+ [10] (./F/statement.tex) (./F/input.tex) (./F/output.tex)
+(./F/spec.tex) (../F/data/sample/1.in) (../F/data/sample/1.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [11]
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [12] (./G/statement.tex) (./G/input.tex)
-(./G/output.tex) (./G/spec.tex
+ [12]
+(./G/statement.tex) (./G/input.tex) (./G/output.tex) (./G/spec.tex
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [13]) (./G/1.input.txt) (./G/1.output.txt)
+ [13])
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
 
@@ -1342,26 +1342,23 @@ File: image/nctu.png Graphic file (type bmp)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
 
-[15]) (./H/1.input.txt) (./H/1.output.txt) (./H/2.input.txt) (./H/2.output.txt)
-File: image/nctu.png Graphic file (type bmp)
-<image/nctu.png>
-[16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+[15])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 37651 strings out of 492933
- 734036 string characters out of 6138667
- 851731 words of memory out of 5000000
- 41098 multiletter control sequences out of 15000+600000
+ 37724 strings out of 492922
+ 736015 string characters out of 6138851
+ 852218 words of memory out of 5000000
+ 41191 multiletter control sequences out of 15000+600000
  536236 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,12n,62p,1189b,1093s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,87p,1189b,1095s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (16 pages).
+Output written on main.pdf (15 pages).

@@ -1,0 +1,38 @@
+Description
+
+It's September and your little brother starts elementary school.
+For better ergonomics, the teacher has to know who are taller or shorter to select their tables and chairs.
+One noticeable thing is some pupils have difficulty telling who's taller if they're of the same height standing on different chairs.
+To help the pupils understand, the teacher makes them compare their heights several times and notes the results on a sheet.
+There are $n$ pupils, whose heights are $H_1$, $H_2$, $\ldots$, and $H_n$, conducting $m$ comparisons in the class.
+There are many chairs, each of which has height either $C_1$, $C_2$, $\ldots$, or $C_k$, while $C_0 = 0$ denotes the ground.
+Since some pupils may report the results incorrectly, the teacher needs you to check if there is any error on the sheet.
+
+
+Input
+
+The first line contains two integers $n$ and $m$.
+Each of the next $m$ lines contains four integers $i ,\, u ,\, j ,\, v$ indicating that $H_i + C_u \le H_j + C_v$.
+
+
+Output
+
+Please output \verb|YES| if there exists a set of positive real numbers $H_1$, $H_2$, $\ldots$, $H_n$ and $C_1$, $C_2$, $\ldots$, $C_k$
+such that all inequations are satisfied. Otherwise, output \verb|NO|.
+
+
+Sample Input 1
+2 1
+1 0 2 1
+
+Sample Output 1
+YES
+
+
+Sample Input 2
+3 2
+1 1 2 0
+2 1 1 0
+
+Sample Output 2
+NO

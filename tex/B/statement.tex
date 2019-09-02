@@ -1,5 +1,8 @@
-You are given $n$ positive integers $a_1,a_2,\ldots,a_n$. 
-Consider the multisets $S_1,\dots,S_n$ where 
-$S_i=\{a_1,\dots,a_{i-1},a_{i+1},\dots,a_n\}=\{a_1,\dots,a_n\}\backslash\{a_i\}$. 
-Please write a program to compute $$\min_{1\le i\le n}\left(\max_{x\in S_i}x-\min_{y\in S_i}y\right)$$
-efficiently.
+It's September and your little brother starts elementary school.
+For better ergonomics, the teacher has to know who are taller or shorter to select their tables and chairs.
+One noticeable thing is some pupils have difficulty telling who's taller if they're of the same height standing on different chairs.
+To help the pupils understand, the teacher makes them compare their heights several times and notes the results on a sheet.
+There are $n$ pupils, whose heights are $H_1$, $H_2$, $\ldots$, and $H_n$, conducting $m$ comparisons in the class.
+There are many chairs, each of which has height either $C_1$, $C_2$, $\ldots$, or $C_k$, while $C_0 = 0$ denotes the ground.
+Since some pupils may report the results incorrectly, the teacher needs you to check if there is any error on the sheet.
+

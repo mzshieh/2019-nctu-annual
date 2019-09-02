@@ -1,9 +1,9 @@
 \documentclass[fleqn, 12pt, a4paper]{article}
-\special{pdf:minorversion 7}
+%\special{pdf:minorversion 7}
 \usepackage{cmap}
 
 \usepackage{titling}
-\title{2019 Competitive Programming I}
+\title{2019 NCTU Annual Programming Contest}
 
 \usepackage[xetex,
 			pdfencoding=auto,
@@ -46,7 +46,7 @@
 {
 	\fancyhf{}
 	\fancyhead[L]{\includegraphics[height=14mm]{image/nctu.png}}
-	\fancyhead[R]{National Chiao Tung University\\[1mm]2019 Competitive Programming I Final\vspace{1mm}}
+	\fancyhead[R]{National Chiao Tung University\\[1mm]2019 Annual Programming Contest\vspace{1mm}}
     \fancyfoot[C]{\thepage}
 }
 \pagestyle{document}
@@ -69,15 +69,15 @@
 \newcommand{\testdata}[1]
 {
 	\stepcounter{ncase}
-	\IfFileExists{#1/\arabic{ncase}.input.txt}
+	\IfFileExists{../#1/data/sample/\arabic{ncase}.in}
     {
 		\vspace{-3mm}
 		\begin{paracol}{2}
 			\subsection*{Sample Input \arabic{ncase}}
-			\lstinputlisting{#1/\arabic{ncase}.input.txt}
+			\lstinputlisting{../#1/data/sample/\arabic{ncase}.in}
 			\switchcolumn
 			\subsection*{Sample Output \arabic{ncase}}
-			\lstinputlisting{#1/\arabic{ncase}.output.txt}
+			\lstinputlisting{../#1/data/sample/\arabic{ncase}.ans}
 		\end{paracol}
 		\testdata{#1}
     }{}
@@ -126,7 +126,7 @@
 	%\ifthenelse{\equal{#1}{I}}{\newpage}{}%%%
 	%\ifthenelse{\equal{#1}{L}}{\newpage}{}%%%
 	
-	\field{#1}{Technical Specification}{spec.tex}
+	\field[0]{#1}{Technical Specification}{spec.tex}
 	\vspace{3mm}
 	%\ifthenelse{\equal{#1}{A}}{\newpage}{}%%%
 	%\ifthenelse{\equal{#1}{B}}{\newpage}{}%%%
@@ -148,13 +148,14 @@
 \belowdisplayskip=2pt
 
 %\tableofcontents
-\problem{A}{A Towering Problem}{1}{256}
-\problem{B}{B is The Easiest}{1}{256}
-\problem{C}{Coloring Socks}{1}{256}
-\problem{D}{Dolls}{2}{256}
-\problem{E}{Exhausted \texttt{mangojunior}}{2}{256}
-\problem{F}{Fortune}{1}{256}
-\problem{G}{Greatness of Subarrays}{4}{256}
-\problem{H}{Hank's Challenge}{1}{256}
+%\vspace*{8mm}
+\problem{A}{A Chair Problem}{1}{256}
+\problem{B}{Both Chairs}{1}{256}
+\problem{C}{Chairs}{1}{256}
+\problem{D}{Temperature Difference}{10}{256}
+\problem{E}{P-adic Equation}}{1}{256}
+\problem{F}{Forming Number}{1}{256}
+\problem{G}{Good Triangles}{1}{256}
+\problem{H}{Hacking Good Triangles}{1}{256}
 \end{document}
 
