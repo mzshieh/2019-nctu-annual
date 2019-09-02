@@ -15,6 +15,7 @@ By Jeff's book
 ## Geometric Median 
 By MZ
 ## Pass
+
 ## Ideal Triangle
 ## Joyful Path
 ## Ideal Triangle checKer
