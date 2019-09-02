@@ -10,7 +10,7 @@ typealias Point = Pair<BigInteger,BigInteger>
 
 private fun nextLine() = readLine()!!
 private fun nextInt() = nextLine().toInt()
-private fun nextToks() = nextLine().split(" ").filter{it.length in 1..100}
+private fun nextToks() = nextLine().split(" ").filter{it.length in 1..15}
 private fun nextBigs() = nextToks().map{it.toBigInteger()}
 private fun nextPoint(): Point {
     val bigs = nextBigs()
