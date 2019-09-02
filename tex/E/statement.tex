@@ -1,15 +1,14 @@
-One of \texttt{mangojunior}'s jobs is to deal with the management affairs of a mysterious classroom. 
-The classroom is a $r\times c$ grid, so there are totally $r\times c$ blocks. 
-There are $n$ craft chairs numbered from $1$ to $n$ in the classroom.
-They are designed to be stacked on a certain magic block which lies on the intersection of row $i$ and column $j$.
-Moreoever, chair $k$ can be put over the top of some chair numbered with an integer less than $k$, 
-and chairs are not allowed to be stacked on all the other blocks.
- 
-\texttt{mangojunior} plans to clean up the classroom. 
-He observed that there is no chair on the magic block, so he can clean it first.
-Then, he can stack all the chairs on the magic block and clean the other blocks.
-In every step, \texttt{mangojunior} can select chair $k$ and move it to an adjacent block which
-must be a block without chair or the magic block with a stack of chairs of number less than $k$.
-During the final exam period, \texttt{mangojunior} is exhausted. 
-Once a chair moved into the magic block, \texttt{mangojunior} does not have enough energy to move it to another block. 
-Please help \texttt{mangojunior} determine how many steps does he need to move all chairs to the magic block?
+Kurt's got some equations to solve, help him out! You will be given the following items:
+\begin{itemize}
+\item A prime $p$, integer $2\leq n\leq 200$, integer $1\leq k$
+\item A square matrix $A\mod p$ of size $n\times n$
+\item An integer vector $0\leq b=\left(\begin{array}{c}b_1\\b_2\\\vdots\\b_n\end{array}\right)$ of size $n\times 1$
+\item An integer $k$
+\end{itemize}
+
+Matrix A is guaranteed to be invertible mod p. Try to solve for $x\mod p^k$ where
+$$
+Ax\equiv b\mod p^k
+$$
+It is guaranteed that $p^k<2^{31}$ and $\forall b_i: 0\leq b_i<2^{31}$
+
