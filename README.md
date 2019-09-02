@@ -1,7 +1,24 @@
 # 2019-nctu-annual
 
-## Primitive Pythagorean Triples
-input: n
-output: n primitive pythagorean triples
+## A Chair
+By Foudre
+## Both Chairs
+By Foudre
+## Chairs
+By Foudre
+## Temperature Difference
+By MT
+## P-adic Equation
+By Taylor
+## Forming Number
+By Jeff's book
+## Geometric Median 
+By MZ
+## Pass
+## Ideal Triangle
+## Joyful Path
+## Ideal Triangle checKer
+## Run Length
+By MZ
+## Monotone Chain
 
-## compute n from 1's
