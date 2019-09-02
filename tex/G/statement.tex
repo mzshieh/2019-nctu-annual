@@ -1,9 +1,4 @@
-$s_0,\dots,s_{n-1}$ is a sequence of integers. 
-In this problem, a subarray of a sequence is an array containing some consecutive elements of the sequence. 
-\texttt{harryoooooooooo} defines the greatness of a continuous segment $s_\ell,s_{\ell+1},\dots,s_{r-1}$
-as its longest subarray which forms an arithmetic sequence.
-In other words, the greateness of $s_\ell,s_{\ell+1},\dots,s_{r-1}$ is the length of its longest subarray
-which owns the following feature: there exist two integers $a$ and $d$ such that 
-the subarray can be described as $a, a+d, a+2d, \dots, a+(m-1)d$, where $m$ denotes the length of subarray. 
-To make this problem harder, \texttt{harryoooooooooo} sometimes modifies the sequence. 
-He chooses a subarray and increases or decreases all elements with an integer $v$. Please find the answers for him.
+We say a point $(x^*,y^*)$ is a geometric median of $n$ points $(x_1,y_1),\ldots,(x_n,y_n)$ on the 2D-plane
+if $\sum_{i=1}^{n}\sqrt{(x^*-x_i)^2+(y^*-y_i)^2}=\min_{x,y}\sum_{i=1}^{n}\sqrt{(x-x_i)^2+(y-y_i)^2}$.
+
+It is probably too hard for you to find a geometric median in general. So please try to solve the cases for $n=4$.

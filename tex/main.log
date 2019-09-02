@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.8.17)  2 SEP 2019 08:15
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.8.17)  2 SEP 2019 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,34 +1328,74 @@ File: image/nctu.png Graphic file (type bmp)
  [11]
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [12] (./G/statement.tex) (./G/input.tex) (./G/output.tex) (./G/spec.tex
+ [12] (./G/statement.tex) (./G/input.tex) (./G/output.tex) (./G/spec.tex) (../G
+/data/sample/1.in) (../G/data/sample/1.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
-
-[13])
+ [13]
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [14] (./H/statement.tex) (./H/input.tex) (./H/output.tex) (./H/spec.tex
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
+ [15]) (../H/data/sample/1.in)
+(../H/data/sample/1.ans) (../H/data/sample/2.in) (../H/data/sample/2.ans)
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
 
-[15])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
+[16] (./I/statement.tex) (./I/input.tex) (./I/output.tex) (./I/spec.tex)
+(../I/data/sample/1.in) (../I/data/sample/1.ans)
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [17]
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [18] (./J/statement.tex)
+(./J/input.tex) (./J/output.tex) (./J/spec.tex
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [19]) (../J/data/sample/1.in)
+(../J/data/sample/1.ans)
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [20] (./K/statement.tex) (./K/input.tex)
+(./K/output.tex) (./K/spec.tex) (../K/data/sample/1.in) (../K/data/sample/1.ans
+)
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [21]
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [22] (./L/statement.tex) (./L/input.tex) (./L/output.tex) (./L/spec.tex) (../L
+/data/sample/1.in) (../L/data/sample/1.ans) (../L/data/sample/2.in)
+(../L/data/sample/2.ans)
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [23]
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [24] (./M/statement.tex) (./M/input.tex)
+(./M/output.tex) (./M/spec.tex) (../M/data/sample/1.in) (../M/data/sample/1.ans
+)
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [25]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 160.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 37738 strings out of 492922
- 736303 string characters out of 6138851
- 852218 words of memory out of 5000000
- 41190 multiletter control sequences out of 15000+600000
+ 37822 strings out of 492922
+ 737646 string characters out of 6138851
+ 850219 words of memory out of 5000000
+ 41188 multiletter control sequences out of 15000+600000
  536228 words of font info for 52 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,13n,87p,1189b,1537s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (15 pages).
+Output written on main.pdf (25 pages).

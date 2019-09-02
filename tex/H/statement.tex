@@ -1,14 +1,6 @@
-Hank likes colorful triangles.
-He collects many sticks in various colors and wants to use them to build as many triangles as possible 
-under the following constraints.
-\begin{enumerate}
-	\item Each triangle must consist of exactly three sticks of distinct colors.
-	\item Every pair of triangles must consist of sticks of at least five distinct colors.
-\end{enumerate}
+This problem is about to construct a directed acyclic graph (DAG) of $n$ vertices and $m$ edges.
+The graph must have the vertex set be $\{1,\ldots,n\}$. Any edge $(u,v)$ in this graph must satisfy $u < v$.
+Any vertex $u$ may have at most $k$ out-going edges.
 
-For example, if Hank builds a triangle with the color red, blue, and green,
-he cannot to build another triangle with color red, blue, and purple. This violate the second constraint. 
-
-You just discovered that Hank's collection of sticks has exactly $3^n$ different color in total. 
-And there are at least $2^{100}$ sticks of each color.
-Hank is too tired during the final exam period, so he asks you to help him to build the triangle.
+You are given three numbers $n,k,a$ where $n$ is the number of vertices and $k$ is the limit of out-going edges.
+Please determine whether there is a DAG such that there are at least $a^n$ paths from $1$ to $n$.

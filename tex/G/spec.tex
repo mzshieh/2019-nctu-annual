@@ -1,9 +1,8 @@
 \begin{itemize}
 	\tightlist
-	\item $1 \le n \le 10^5$
-	\item $1 \le q \le 10^6$
-	\item $-10^9 \le s_i \le 10^9$ for $i\in\{0,\dots,n-1\}$
-	\item $0 \le \ell < r \le n$
-	\item $-10^3 \le v \le 10^3$
+	\item $n = 4$
+	\item $0 \le x_i \le 1000$ for $1\le i \le n$
+	\item $0 \le y_i \le 1000$ for $1\le i \le n$
+	\item The judge script will consider it is correct if your output $x'$ and $y'$ satisfies: $$\sum_{i=1}^{n}\sqrt{(x'-x_i)^2+(y'-y_i)^2}\le 1.000001\cdot\min_{x,y}\sum_{i=1}^{n}\sqrt{(x-x_i)^2+(y-y_i)^2}$$
 \end{itemize}
-\newpage
+

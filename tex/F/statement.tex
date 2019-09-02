@@ -1,12 +1,8 @@
-The mayor of Takao City wants to make money! He decides to invest in some stocks. 
-By the power of the city mayor, he can know the best stock of each day. 
-In day $i$, he can earn $b_i$ dollars by investing one unit of stock. 
-He can invest up to $k_i$ units of stock in that day.
-However, he is not allowed to invest a fractional unit.
-He must invest an integral number of units.
+You are given a positive integer $n$. 
+You have infinite supplies of $1$'s, additions, multiplications and brackets for composing an expression. 
+What is the least total number of additions and multiplications required to compose an expression evaluated into $n$?
 
-The mayor can simply invest $k_i$ unit in day $i$ earning the maximum amount of money. 
-But he wants to create a illusion of making more and more money. 
-He decided to make the amount of the money earned increase everytime he invests. 
-To keep the amount of earnings increasing, he may need to not invest somedays. 
-What is the maximum days he can achieve?
+For example, $n=9=(1+1+1)\times(1+1+1)$ can be evaluated with $5$ operations 
+and it is impossible to use $4$ operations to compose an expression evaluated into $9$.
+Therefore, you should output $5$.
+Note that concatenating $1$'s is not allowed.
