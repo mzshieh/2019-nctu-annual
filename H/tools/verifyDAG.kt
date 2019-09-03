@@ -35,7 +35,7 @@ fun verify(input: List<String>, answer: List<String>) {
     for (i in 0 until n-1) {
         testIf(adj[i].size <= k, "too many edge")
         testIf(adj[i].min()!! >= i+1, "not acyclic")
-        testIf(adj[i].distinct(), "not simple")
+        testIf(adj[i].distinct().size == adj[i].size, "not simple")
         for (j in adj[i]) dp[j] += dp[i]
     }
     println("${dp[n-1]}")

@@ -1,5 +1,0 @@
-- 2 \le n \le 500
-- 1 \le m \le 10^4
-- k = 2
-- 1 \le i ,\, j \le n \; ( i \ne j )
-- 0 \le u ,\, v \le k
